@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "512093952855",
+    "firebase_url": "https://walkie-server.firebaseio.com",
+    "project_id": "walkie-server",
+    "storage_bucket": "walkie-server.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512093952855:android:22992930e45477b30c7c12",
+        "android_client_info": {
+          "package_name": "com.google.flutter.walkie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512093952855-gebhi9e73uliimqt5ldls0jhvv3m35sa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.flutter.walkie",
+            "certificate_hash": "0de1942c6c429a69bd2441748b47914336ef54e6"
+          }
+        },
+        {
+          "client_id": "512093952855-des39rmgndfh3t5l0gqa40tbubfantqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9tVhLQosPUKFQGmzm7Dd4lwOK241tQNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512093952855-des39rmgndfh3t5l0gqa40tbubfantqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
