@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:walkie_ver01/tracking_screen.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({
@@ -21,7 +22,7 @@ class _HomePageState extends State<HomePage> {
 
   static List<Widget> _screens = <Widget>[
     Container(color: Colors.grey[400],),
-    Container(color: Colors.amberAccent,),
+    trackingScreen(),
     Container(color: Colors.grey[400],),
 
   ];
@@ -49,13 +50,12 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-    void _onBtmItemClick(int index){
-      print(index);
-      //extend state class 안에서만 사용가능한 함수
-      setState(() {
-        _selectedIndex = index;//값을 변화(모양 변화)
-      });
+  void _onBtmItemClick(int index){
+    print(index);
+    //extend state class 안에서만 사용가능한 함수
+    setState(() {
+      _selectedIndex = index;//값을 변화(모양 변화)
+    });
 
   }
 }
-
